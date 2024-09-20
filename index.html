@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Medical technologies</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__mobile-wrapper">
+            <div class="header__burger-menu"></div>
+            <a href="#" class="header__logo">
+              <img src="img/header/logo.svg" alt="Medical technologies" />
+            </a>
+            <button class="btn header__phone-btn">
+              <img src="img/header/phone-icon.svg" alt="phone" />
+            </button>
+          </div>
+          <div class="header__right-part">
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-list-item">
+                  <button class="header__nav-list-item-btn">О нас</button>
+                  <div class="header__nav-list-item-body-links">
+                    <a href="#" class="header__nav-list-item-body-links-item">
+                      Отзывы
+                    </a>
+                    <a href="#" class="header__nav-list-item-body-links-item">
+                      Новости</a
+                    >
+                    <a href="#" class="header__nav-list-item-body-links-item">
+                      Сотрудничество
+                    </a>
+                  </div>
+                </li>
+                <li class="header__nav-list-item">
+                  <a href="#" class="header__nav-list-item-link"> Услуги </a>
+                </li>
+                <li class="header__nav-list-item">
+                  <a href="#" class="header__nav-list-item-link">Врачи </a>
+                </li>
+                <li class="header__nav-list-item">
+                  <a href="#" class="header__nav-list-item-link"> Акции </a>
+                </li>
+                <li class="header__nav-list-item">
+                  <a href="#" class="header__nav-list-item-link">
+                    Диагностика
+                  </a>
+                </li>
+                <li class="header__nav-list-item">
+                  <a href="#" class="header__nav-list-item-link"> Анализы</a>
+                </li>
+                <li class="header__nav-list-item">
+                  <a href="#" class="header__nav-list-item-link"> Пациентам </a>
+                </li>
+                <li class="header__nav-list-item">
+                  <a href="#" class="header__nav-list-item-link"> Контакты </a>
+                </li>
+              </ul>
+              <button class="header__nav-search">
+                <img src="img/header/search-btn.svg" alt="Search" />
+              </button>
+            </nav>
+            <div class="header__contact">
+              <p class="header__contact-number">+7 911 210 02 87</p>
+              <p class="header__work-hours">Ежедневно 8:00 - 20:00</p>
+            </div>
+            <div class="header__user">
+              <button class="header__profile">
+                <img src="img/header/profile-picture.svg" alt="user profile" />
+              </button>
+              <button class="btn header__btn">Записаться</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="pop-up display-none">
+      <div class="pop-up-wrapper">
+        <button class="white-cross">
+          <img src="img/white-cross.svg" alt="close" />
+        </button>
+        <form action="#" class="pop-up-wrapper-form">
+          <label for="fio" class="pop-up__label">
+            <input
+              class="pop-up-input"
+              type="text"
+              id="fio"
+              placeholder="ФИО"
+            />
+            <!-- <span class="error-message">Тут текст об ошибке</span> -->
+          </label>
+          <label for="phone" class="pop-up__label">
+            <input
+              class="pop-up-input"
+              type="text"
+              id="phone"
+              placeholder="+7 (999) 999-99-99"
+            />
+            <!-- <span class="error-message">Тут текст об ошибке</span> -->
+          </label>
+          <label for="checkbox-policy" class="pop-up__label">
+            <div class="checkbox-wrapper">
+              <input
+                type="checkbox"
+                id="checkbox-policy"
+                class="checkbox-input"
+              />
+              <p class="pop-up__text">
+                Согласие на обработку персональных данных
+              </p>
+            </div>
+            <!-- 
+            <span class="error-message error-message-active"
+              >Тут текст об ошибке</span
+            > -->
+          </label>
+          <button class="btn pop-up__btn">Отправить заявку</button>
+        </form>
+      </div>
+    </section>
+    <main class="main">
+      <div class="container">
+        <h1 class="main__header">
+          Ваше здоровье <span class="text-highlight">в надежных руках</span>
+        </h1>
+        <p class="main__subtitle">
+          Создаем комфортные условия для вашего лечения и восстановления,
+          обеспечивая максимальную эффективность и удобство на каждом этапе.
+        </p>
+        <div class="main__btn-wrapper">
+          <button class="btn main__btn">Связаться с клиникой</button>
+        </div>
+
+        <div class="main__slider">
+          <div class="swiper mySwiper main__slider">
+            <div class="swiper-wrapper main__slider-wrapper">
+              <div class="swiper-slide main__slider-slide">
+                <p class="main__swiper-slide-text">
+                  Современное оборудование и передовые технологии
+                </p>
+              </div>
+              <div class="swiper-slide main__slider-slide">
+                <p class="main__swiper-slide-text">
+                  Квалифицированные специалисты с многолетним опытом работы
+                </p>
+              </div>
+              <div class="swiper-slide main__slider-slide">
+                <p class="main__swiper-slide-text">
+                  Индивидуальный подход к каждому пациенту и комфортные условия
+                  лечения
+                </p>
+              </div>
+            </div>
+            <div class="swiper-pagination main__slider-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="welcome">
+      <div class="container">
+        <div class="welcome__wrapper">
+          <div class="welcome__left">
+            <h2 class="section-header welcome__header">
+              Добро пожаловать в сеть клиник
+              <span class="text-highlight">«Медицинские Технологии»</span>
+            </h2>
+            <p class="text welcome__text">
+              Медицинский центр "Medical Technologies" в Санкт-Петербурге
+              предлагает широкий спектр высококачественных медицинских услуг. Мы
+              используем передовые технологии и новейшее оборудование для точной
+              диагностики и эффективного лечения. Наши опытные специалисты,
+              обладающие многолетним опытом, обеспечивают индивидуальный подход
+              к каждому пациенту.
+            </p>
+            <button class="btn welcome__btn">Узнать больше о клинике</button>
+          </div>
+          <div class="welcome__img">
+            <img src="img/why-us/medic-house.jpg" alt="Clinic" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="why-us">
+      <div class="container">
+        <p class="why-us__subtitle">Почему стоит к нам обратиться?</p>
+        <ul class="why-us__list">
+          <li class="why-us__list-item">
+            <p class="why-us__item-text">
+              Онлайн-запись и доступ к результатам
+            </p>
+            <p class="why-us-text-desc text">
+              Внедрили систему онлайн-записи, благодаря которой вы можете
+              выбрать желаемое время приема и специалиста
+            </p>
+          </li>
+          <li class="why-us__list-item">
+            <p class="why-us__item-text">Предварительные консультации</p>
+            <p class="why-us-text-desc text">
+              Первичное обследование, позволяющее врачу оценить состояние
+              пациента и определить шаги лечения или диагностики
+            </p>
+          </li>
+          <li class="why-us__list-item">
+            <p class="why-us__item-text">
+              Централизованная информационная система
+            </p>
+            <p class="why-us-text-desc text">
+              Единая платформа для хранения и управления всеми данными о
+              пациентах, медицинских записях и административных процессах.
+            </p>
+          </li>
+          <li class="why-us__list-item">
+            <p class="why-us__item-text">Экспресс-диагностика</p>
+            <p class="why-us-text-desc text">
+              Быстрое и эффективное обследование, позволяющее оперативно
+              определить состояние здоровья пациента
+            </p>
+          </li>
+          <li class="why-us__list-item">
+            <p class="why-us__item-text">Оптимизированный маршрут пациентов</p>
+            <p class="why-us-text-desc text">
+              Упорядоченный процесс перемещения пациентов между отделениями и
+              специалистами
+            </p>
+          </li>
+          <li class="why-us__list-item">
+            <p class="why-us__item-text">Горячая линия для пациентов</p>
+            <p class="why-us-text-desc text">
+              Круглосуточная телефонная служба, предоставляющая консультации и
+              оперативную поддержку по медицинским вопросам.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="medical-lists">
+      <div class="container">
+        <h2 class="section-header medical-lists__header">Мы поможем вам</h2>
+        <p class="text medical-lists__subheader">
+          Атмосфера безопасности и эмпатии
+        </p>
+        <div class="medical-lists__sections">
+          <button
+            class="medical-lists__section medical-lists__section-active"
+            data-id="doctors"
+          >
+            Специалисты
+          </button>
+          <button class="medical-lists__section" data-id="analyses">
+            Диагноистика
+          </button>
+          <button class="medical-lists__section" data-id="diagnostics">
+            Анализы
+          </button>
+          <button class="medical-lists__section" data-id="diseases">
+            Заболевания
+          </button>
+        </div>
+        <div class="items-wrapper item-active" id="doctors">
+          <div class="items-wrapper__top-part">
+            <h3 class="items-wrapper__title">
+              Более 20 специальностей врачей готовы
+              <span class="text-highlight">помочь вам</span>
+            </h3>
+            <div class="doctors-wrapper__doctors-type">
+              <p
+                class="doctor-type doctor-type-active"
+                data-id="doctors-list-adult"
+              >
+                Взрослые врачи
+              </p>
+              <p class="doctor-type" data-id="doctors-list-children">
+                Детские врачи
+              </p>
+            </div>
+          </div>
+          <div
+            class="items-wrapper-inner doctors-list doctors-list-active"
+            id="doctors-list-adult"
+          ></div>
+          <div
+            class="items-wrapper-inner doctors-list"
+            id="doctors-list-children"
+          ></div>
+        </div>
+        <div class="items-wrapper" id="analyses">
+          <div class="items-wrapper__top-part">
+            <h3 class="items-wrapper__title">
+              Современные методы диагностики для точного и своевременного
+              выявления <span class="text-highlight">вашего здоровья </span>
+            </h3>
+          </div>
+          <div class="items-wrapper-inner" id="analyses-list"></div>
+        </div>
+        <div class="items-wrapper" id="diagnostics">
+          <div class="items-wrapper__top-part">
+            <h3 class="items-wrapper__title">
+              <span class="text-highlight">Полный спектр анализов</span> для
+              уверенности в вашем самочувствии
+            </h3>
+          </div>
+          <div class="items-wrapper-inner" id="diagnostics-list"></div>
+        </div>
+        <div class="items-wrapper" id="diseases">
+          <div class="items-wrapper__top-part">
+            <h3 class="items-wrapper__title">
+              <span class="text-highlight">Комплексный подход</span> к лечению
+              заболеваний для вашего быстрого восстановления помочь вам
+            </h3>
+          </div>
+          <div class="items-wrapper-inner" id="diseases-list"></div>
+        </div>
+      </div>
+    </section>
+    <section class="discount">
+      <div class="container">
+        <div class="discount__wrapper">
+          <div class="discount__info">
+            <h2 class="discount__header">
+              Получите скидку
+              <span class="text-highlight">10% на первое посещение</span>
+              любого специалиста
+            </h2>
+            <p class="discount__text text">
+              Ответьте на 4 простых вопроса о вашей ситуации – менеджер центра
+              запишет вас к нужному врачу на удобное вам время и закрепит скидку
+            </p>
+          </div>
+          <div class="discount__question">
+            <span class="discount__question-number"> 1 вопрос </span>
+            <p class="discount__question-itself">Выберите врача</p>
+            <ul class="discount__doctors-options">
+              <li class="discount__doctors-options-item">Косметолог</li>
+              <li class="discount__doctors-options-item">Кардиолог</li>
+              <li class="discount__doctors-options-item">Дерматолог</li>
+              <li class="discount__doctors-options-item">Диетолог</li>
+              <li class="discount__doctors-options-item">Гастроэнтеролог</li>
+              <li class="discount__doctors-options-item">Гинеколог</li>
+              <li class="discount__doctors-options-item">Терапевт</li>
+              <li class="discount__doctors-options-item">Эндокринолог</li>
+              <li class="discount__doctors-options-item">Пульмонолог</li>
+              <li class="discount__doctors-options-item">Иммунолог</li>
+              <li class="discount__doctors-options-item">Детский ревматолог</li>
+            </ul>
+            <button class="discount__btn btn">Далее</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our-doctors">
+      <div class="container">
+        <h2 class="section-header our-doctors__header">Наши врачи</h2>
+        <div class="our-doctors__wrapper">
+          <ul class="our-doctors__specialized">
+            <li class="our-doctors__specialized-item">
+              <button
+                class="our-doctors__specialized-item-btn our-doctors__specialized-item-btn-active"
+                data-id="Все"
+              >
+                Все
+              </button>
+            </li>
+            <li class="our-doctors__specialized-item">
+              <button
+                class="our-doctors__specialized-item-btn"
+                data-id="Косметолог"
+              >
+                Косметологи
+              </button>
+            </li>
+            <li class="our-doctors__specialized-item">
+              <button
+                class="our-doctors__specialized-item-btn"
+                data-id="Кардиолог"
+              >
+                Кардиологи
+              </button>
+            </li>
+            <li class="our-doctors__specialized-item">
+              <button
+                class="our-doctors__specialized-item-btn"
+                data-id="Дерматолог"
+              >
+                Дерматологи
+              </button>
+            </li>
+            <li class="our-doctors__specialized-item">
+              <button
+                class="our-doctors__specialized-item-btn"
+                data-id="Диетолог"
+              >
+                Диетологи
+              </button>
+            </li>
+            <li class="our-doctors__specialized-item">
+              <button
+                class="our-doctors__specialized-item-btn"
+                data-id="Гастроэнтеролог"
+              >
+                Гастроэнтерологи
+              </button>
+            </li>
+            <li class="our-doctors__specialized-item">
+              <button
+                class="our-doctors__specialized-item-btn"
+                data-id="Гинеколог"
+              >
+                Гинекологи
+              </button>
+            </li>
+            <li class="our-doctors__specialized-item">
+              <button
+                class="our-doctors__specialized-item-btn"
+                data-id="Терапевт"
+              >
+                Терапевты
+              </button>
+            </li>
+          </ul>
+          <div class="our-doctors__slider">
+            <div class="swiper mySwiper2 our-doctors__swiper">
+              <div class="swiper-wrapper our-doctors__wrapper-swiper"></div>
+              <div class="swiper-button-next our-doctors__button-next">
+                <img src="img/btn-next.svg" alt="btn-next" />
+              </div>
+              <div class="swiper-button-prev our-doctors__button-prev">
+                <img src="img/btn-prev.svg" alt="btn-prev" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-doctors__btn-wrapper">
+          <button class="btn our-doctors__btn">Смотреть всех врачей</button>
+        </div>
+      </div>
+    </section>
+    <section class="clinic-possibilities">
+      <div class="container">
+        <h2 class="section-header clinic-possibilities__header">
+          Возможности клиники
+        </h2>
+        <p class="clinic-possibilities__subtitle">
+          Только нужные препараты и процедуры
+        </p>
+        <div class="clinic-possibilities-wrapper">
+          <div class="possibilities-wrapper">
+            <p class="possibilities-wrapper__header">Возможности клиники</p>
+            <ul class="possibilities-list">
+              <li class="possibilities-list-item">
+                <button
+                  class="possibilities-list-item-btn possibilities-list-item-btn-active"
+                  data-id="Центр психотерапии"
+                >
+                  Центр психотерапии
+                </button>
+              </li>
+              <li class="possibilities-list-item">
+                <button
+                  class="possibilities-list-item-btn"
+                  data-id="Лаборатория"
+                >
+                  Лаборатория
+                </button>
+              </li>
+              <li class="possibilities-list-item">
+                <button
+                  class="possibilities-list-item-btn"
+                  data-id="Косметология "
+                >
+                  Косметология
+                </button>
+              </li>
+              <li class="possibilities-list-item">
+                <button
+                  class="possibilities-list-item-btn"
+                  data-id=" Центр неврологии"
+                >
+                  Центр неврологии
+                </button>
+              </li>
+              <li class="possibilities-list-item">
+                <button class="possibilities-list-item-btn" data-id="Стационар">
+                  Стационар
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="possibilities-desc">
+            <div class="possibilities-desc__content">
+              <p class="possibilities-desc__header">
+                Помощь в решении психологических и эмоциональных проблем
+              </p>
+              <p class="possibilities-desc__text">
+                В нашем Центре работают высококвалифицированные психотерапевты с
+                многолетним опытом. Они регулярно проходят обучение и участвуют
+                в профессиональных конференциях, чтобы всегда быть в курсе
+                новейших методик и подходов в психотерапии. Оказываем следующие
+                услуги:
+              </p>
+              <ul class="possibilities-desc__list">
+                <li class="possibilities-desc__list-item">
+                  Индивидуальная психотерапия
+                </li>
+                <li class="possibilities-desc__list-item">
+                  Семейная и парная терапия
+                </li>
+                <li class="possibilities-desc__list-item">
+                  Терапия для детей и подростков
+                </li>
+              </ul>
+              <p class="possibilities-desc__text">
+                Мы придерживаемся принципов конфиденциальности и уважения к
+                каждому пациенту. Наша цель – помочь вам обрести внутренний
+                покой, уверенность в себе и способность справляться с жизненными
+                трудностями.
+              </p>
+            </div>
+            <div class="possibilities__img">
+              <img src="img/clinic-possibilities-img.jpg" alt="Психотерапия" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feedback">
+      <div class="container-big">
+        <h2 class="section-header feedback__header">Отзывы</h2>
+        <p class="feedback__subtitle">
+          >70% пациентов приходят по рекомендации
+        </p>
+        <div class="feedback__slider-wrapper">
+          <div class="feedback__slider swiper mySwiper3">
+            <div class="feedback__slider-wrapper-swiper swiper-wrapper"></div>
+            <div
+              class="feedback__slider-button feedback__slider-button--next swiper-button-next"
+            >
+              <img src="img/btn-next.svg" alt="btn-next" />
+            </div>
+            <div
+              class="feedback__slider-button feedback__slider-button--prev swiper-button-prev"
+            >
+              <img src="img/btn-prev.svg" alt="btn-prev" />
+            </div>
+          </div>
+        </div>
+        <div class="feedback__btn-wrapper">
+          <button class="btn feedback__btn">Читать все отзывы</button>
+        </div>
+      </div>
+    </section>
+    <section class="practice">
+      <div class="container">
+        <p class="practice__suptitle">Больше 20 лет практики</p>
+        <p class="practice__main-text">
+          Проводим <span class="text-highlight">своевременную</span> диагностику
+          и справляемся со
+          <span class="text-highlight">сложными</span> клиническими случаями
+        </p>
+        <div class="practice__wrapper">
+          <div class="practice__main-doctor">
+            <div class="practice__main-doctor-img">
+              <img src="img/main-doctor.png" alt="Галустян Анна Николаевна" />
+            </div>
+            <div class="practice__main-doctor-desc">
+              <p class="practice__main-doctor-name">Галустян Анна Николаевна</p>
+              <p class="practice__main-doctor-desc-speciality">
+                Главный врач Medical Technologies
+              </p>
+            </div>
+          </div>
+          <div class="practice__quotes">
+            Наша цель – превратить поход в медицинское учреждение в спокойное
+            мероприятие без лишнего стресса. Мы создали безопасное пространство,
+            в котором можно чувствовать себя уверенно и защищенно. Я
+            действительно горжусь нашим подходом: каждый специалист
+            заинтересован в скорейшем выздоровлении своего пациента, внимательно
+            погружается в медицинскую ситуацию и ищет точечное, иногда
+            нестандартное, решение проблемы
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partners">
+      <div class="container">
+        <h2 class="section-header partners__header">Наши партнёры</h2>
+        <p class="partners__subheader">Профессионалы своего дела</p>
+      </div>
+      <div class="partners__container">
+        <div class="partners__logos-row row-1">
+          <div class="logo-item">
+            <img src="img/partners/1.svg" alt="1" />
+          </div>
+          <div class="logo-item">
+            <img src="img/partners/2.svg" alt="2" />
+          </div>
+          <div class="logo-item">
+            <img src="img/partners/3.svg" alt="3" />
+          </div>
+          <div class="logo-item">
+            <img src="img/partners/4.svg" alt="4" />
+          </div>
+          <div class="logo-item">
+            <img src="img/partners/5.svg" alt="5" />
+          </div>
+          <div class="logo-item">
+            <img src="img/partners/6.svg" alt="6" />
+          </div>
+          <div class="logo-item">
+            <img src="img/partners/7.svg" alt="7" />
+          </div>
+        </div>
+        <div class="partners__logos-row row-2">
+          <div class="logo-item">
+            <img src="img/partners/1.svg" alt="1" />
+          </div>
+          <div class="logo-item">
+            <img src="img/partners/2.svg" alt="2" />
+          </div>
+          <div class="logo-item">
+            <img src="img/partners/3.svg" alt="3" />
+          </div>
+          <div class="logo-item">
+            <img src="img/partners/4.svg" alt="4" />
+          </div>
+          <div class="logo-item">
+            <img src="img/partners/5.svg" alt="5" />
+          </div>
+          <div class="logo-item">
+            <img src="img/partners/6.svg" alt="6" />
+          </div>
+          <div class="logo-item">
+            <img src="img/partners/7.svg" alt="7" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="news">
+      <div class="container-big">
+        <div class="news__wrapper">
+          <div class="news__headers">
+            <h2 class="section-header news__header">Пресс-центр</h2>
+            <p class="news__subtitle">Будьте в курсе наших новостей</p>
+          </div>
+          <div class="news__type">
+            <div
+              class="news__type-item news__type-item-active"
+              data-id="Новости"
+            >
+              Новости
+            </div>
+            <div class="news__type-item" data-id="Статьи">Статьи</div>
+          </div>
+        </div>
+        <div class="news__slider-wrapper">
+          <div class="news__swiper swiper mySwiper4" id="Новости">
+            <div class="swiper-wrapper news__swiper-wrapper"></div>
+            <div class="swiper-button-next news__button news__button--next">
+              <img src="img/btn-next.svg" alt="btn-next" />
+            </div>
+            <div class="swiper-button-prev news__button news__button--prev">
+              <img src="img/btn-prev.svg" alt="btn-prev" />
+            </div>
+          </div>
+        </div>
+        <div class="news__btn-wrapper">
+          <button class="btn news__btn">Читать все новости</button>
+        </div>
+      </div>
+    </section>
+    <section class="sertificate">
+      <div class="container">
+        <h2 class="sertificate__header section-header">Сертификаты</h2>
+        <ul class="sertificate__wrapper">
+          <li class="sertificate__item">
+            <div class="sertificate__item-bg">
+              <img src="img/sertificate-bg.svg" alt="Лицензия #3026" />
+            </div>
+            <div class="sertificate__item-itself">
+              <img src="img/sertificats/lisence-medical.jpg" alt="Лицензия" />
+            </div>
+            <div class="sertificate__item-info">
+              <p class="sertificate-item__header">
+                Лицензия<span> #3026</span>
+              </p>
+              <p class="sertificate__subheader">
+                На осуществление медицинской деятельности
+              </p>
+              <div class="sertificate__bottom-part">
+                <div class="sertificate__bottom-part_info-wrapper">
+                  <div class="sertificate__bottom-part_information-item">
+                    Серия <span>78Л01</span>
+                  </div>
+                  <div class="sertificate__bottom-part_information-item">
+                    № <span>0003458</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              href="img/sertificats/lisence-medical.pdf"
+              download
+              class="sertificate__download"
+            >
+              Скачать
+            </a>
+          </li>
+          <li class="sertificate__item">
+            <div class="sertificate__item-bg">
+              <img src="img/sertificate-bg.svg" alt="Лицензия #3026" />
+            </div>
+            <div class="sertificate__item-itself">
+              <img src="img/sertificats/lisence-medical.jpg" alt="Лицензия" />
+            </div>
+            <div class="sertificate__item-info">
+              <p class="sertificate-item__header">
+                Лицензия<span> #3026</span>
+              </p>
+              <p class="sertificate__subheader">
+                На осуществление медицинской деятельности
+              </p>
+              <div class="sertificate__bottom-part">
+                <div class="sertificate__bottom-part_info-wrapper">
+                  <div class="sertificate__bottom-part_information-item">
+                    Серия <span>78Л01</span>
+                  </div>
+                  <div class="sertificate__bottom-part_information-item">
+                    № <span>0003458</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              href="img/sertificats/lisence-medical.pdf"
+              download
+              class="sertificate__download"
+            >
+              Скачать
+            </a>
+          </li>
+          <li class="sertificate__item">
+            <div class="sertificate__item-bg">
+              <img src="img/sertificate-bg.svg" alt="Лицензия #3026" />
+            </div>
+            <div class="sertificate__item-itself">
+              <img src="img/sertificats/lisence-medical.jpg" alt="Лицензия" />
+            </div>
+            <div class="sertificate__item-info">
+              <p class="sertificate-item__header">
+                Лицензия<span> #3026</span>
+              </p>
+              <p class="sertificate__subheader">
+                На осуществление медицинской деятельности
+              </p>
+              <div class="sertificate__bottom-part">
+                <div class="sertificate__bottom-part_info-wrapper">
+                  <div class="sertificate__bottom-part_information-item">
+                    Серия <span>78Л01</span>
+                  </div>
+                  <div class="sertificate__bottom-part_information-item">
+                    № <span>0003458</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              href="img/sertificats/lisence-medical.pdf"
+              download
+              class="sertificate__download"
+            >
+              Скачать
+            </a>
+          </li>
+          <li class="sertificate__item">
+            <div class="sertificate__item-bg">
+              <img src="img/sertificate-bg.svg" alt="Лицензия #3026" />
+            </div>
+            <div class="sertificate__item-itself">
+              <img src="img/sertificats/lisence-medical.jpg" alt="Лицензия" />
+            </div>
+            <div class="sertificate__item-info">
+              <p class="sertificate-item__header">
+                Лицензия<span> #3026</span>
+              </p>
+              <p class="sertificate__subheader">
+                На осуществление медицинской деятельности
+              </p>
+              <div class="sertificate__bottom-part">
+                <div class="sertificate__bottom-part_info-wrapper">
+                  <div class="sertificate__bottom-part_information-item">
+                    Серия <span>78Л01</span>
+                  </div>
+                  <div class="sertificate__bottom-part_information-item">
+                    № <span>0003458</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              href="img/sertificats/lisence-medical.pdf"
+              download
+              class="sertificate__download"
+            >
+              Скачать
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__main-part">
+          <div class="footer__conpany-info">
+            <a href="#" class="footer__logo">
+              <img
+                src="img/footer/medical-logo-footer.svg"
+                alt="medical-technologies"
+              />
+            </a>
+            <div class="footer__address">
+              <p class="footer__address-city">г. Санкт-Петербург:</p>
+              <ul class="footer__address-list">
+                <li class="footer__address-list-item">Восстания, д. 8</li>
+                <li class="footer__address-list-item">
+                  Малый проспект, П.С., д. 3
+                </li>
+                <li class="footer__address-list-item">
+                  Сантьяго-де-Куба, д. 4, к. 1
+                </li>
+              </ul>
+              <a href="#" class="footer__address_map-link">
+                Смотреть на карте
+              </a>
+              <p class="footer__address_work-time">Пн-Вс – 8:00 - 20:00</p>
+            </div>
+            <div class="footer__soc-media">
+              <div class="footer__age">
+                <img src="img/footer/18+-icon.svg" alt="18+" />
+              </div>
+              <ul class="footer__soc-media_list">
+                <li class="footer__soc-media_list-item">
+                  <a href="#" class="footer__soc-media_list-item-link">
+                    <img
+                      src="img/footer/odnoklassniki-icon.svg"
+                      alt="Odnoklassniki"
+                    />
+                  </a>
+                </li>
+                <li class="footer__soc-media_list-item">
+                  <a href="#" class="footer__soc-media_list-item-link">
+                    <img src="img/footer/vk-icon.svg" alt="Odnoklassniki" />
+                  </a>
+                </li>
+                <li class="footer__soc-media_list-item">
+                  <a href="#" class="footer__soc-media_list-item-link">
+                    <img
+                      src="img/footer/telegram-icon.svg"
+                      alt="Odnoklassniki"
+                    />
+                  </a>
+                </li>
+                <li class="footer__soc-media_list-item">
+                  <a href="#" class="footer__soc-media_list-item-link">
+                    <img
+                      src="img/footer/whatsapp-icon.svg"
+                      alt="Odnoklassniki"
+                    />
+                  </a>
+                </li>
+                <li class="footer__soc-media_list-item">
+                  <a href="#" class="footer__soc-media_list-item-link">
+                    <img src="img/footer/dzen-icon.svg" alt="Odnoklassniki" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__main-links">
+              <a href="#" class="footer__ask-question"> Задать вопрос </a>
+              <a class="footer__for-blinds"> Версия для слабовидящих </a>
+            </div>
+          </div>
+          <div class="footer__lists-wrapper">
+            <ul class="footer__siite-parts">
+              <li class="footer__siite-parts-item">
+                <a href="#" class="footer__siite-parts-item-link"> О центре </a>
+              </li>
+              <li class="footer__siite-parts-item">
+                <a href="#" class="footer__siite-parts-item-link"> Услуги </a>
+              </li>
+              <li class="footer__siite-parts-item">
+                <a href="#" class="footer__siite-parts-item-link"> Врачи </a>
+              </li>
+              <li class="footer__siite-parts-item">
+                <a href="#" class="footer__siite-parts-item-link"> Анализы </a>
+              </li>
+              <li class="footer__siite-parts-item">
+                <a href="#" class="footer__siite-parts-item-link">
+                  Пациентам
+                </a>
+              </li>
+              <li class="footer__siite-parts-item">
+                <a href="#" class="footer__siite-parts-item-link"> Отзывы </a>
+              </li>
+              <li class="footer__siite-parts-item">
+                <a href="#" class="footer__siite-parts-item-link"> Контакты </a>
+              </li>
+              <li class="footer__siite-parts-item">
+                <a href="#" class="footer__siite-parts-item-link"> Новости </a>
+              </li>
+              <li class="footer__siite-parts-item">
+                <a href="#" class="footer__siite-parts-item-link">
+                  Сотрудничество
+                </a>
+              </li>
+            </ul>
+            <ul class="footer__doctors">
+              <li class="footer__doctors-item">
+                <a href="#" class="footer__doctors-item-link"> Косметолог </a>
+              </li>
+              <li class="footer__doctors-item">
+                <a href="#" class="footer__doctors-item-link"> Кардиолог </a>
+              </li>
+
+              <li class="footer__doctors-item">
+                <a href="#" class="footer__doctors-item-link"> Дерматолог </a>
+              </li>
+              <li class="footer__doctors-item">
+                <a href="#" class="footer__doctors-item-link"> Диетолог </a>
+              </li>
+              <li class="footer__doctors-item">
+                <a href="#" class="footer__doctors-item-link">
+                  Гастроэнтеролог
+                </a>
+              </li>
+              <li class="footer__doctors-item">
+                <a href="#" class="footer__doctors-item-link"> Гинеколог </a>
+              </li>
+              <li class="footer__doctors-item">
+                <a href="#" class="footer__doctors-item-link"> Терапевт </a>
+              </li>
+              <li class="footer__doctors-item">
+                <a href="#" class="footer__doctors-item-link"> Эндокринолог </a>
+              </li>
+              <li class="footer__doctors-item">
+                <a href="#" class="footer__doctors-item-link"> Пульмонолог </a>
+              </li>
+              <li class="footer__doctors-item">
+                <a href="#" class="footer__doctors-item-link"> Иммунолог </a>
+              </li>
+              <li class="footer__doctors-item">
+                <a href="#" class="footer__doctors-item-link"> Педиатр </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__collective-information">
+            <p class="footer__phone">+7 911 210-02-87</p>
+            <p class="footer__text">
+              Есть противопоказания, необходима консультация специалиста. Не
+              оферта. Окончательную стоимость услуг уточнять по телефону
+            </p>
+            <div class="footer__download-app">
+              <p class="footer__text footer__text-download">
+                Скачайте наше приложение, в котором вы сможете записываться на
+                прием, получать результаты анализов и обследований и оплачивать
+                услуги онлайн.
+              </p>
+              <div class="footer__download-app_wrapper">
+                <a href="#" class="footer__download-add_link">
+                  <img src="img/footer/download-ios.png" alt="App Store" />
+                </a>
+                <a href="#" class="footer__download-add_link">
+                  <img
+                    src="img/footer/download-android.png"
+                    alt="Google Play"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="footer__text">
+              Все материалы данного сайта являются объектами авторского права (в
+              том числе дизайн). Запрещается копирование, распространение (в том
+              числе путем копирования на другие сайты и ресурсы в Интернете) или
+              любое иное использование информации и объектов без
+              предварительного письменного согласия правообладателя. Указание
+              ссылки на источник информации является обязательным.
+            </p>
+          </div>
+        </div>
+        <ul class="footer__fast-links">
+          <li class="footer__fast-links-item">
+            <a href="#" class="footer__fast-links-item-link">
+              Политика конфиденциальности
+            </a>
+          </li>
+          <li class="footer__fast-links-item">
+            <a href="#" class="footer__fast-links-item-link">
+              Пользовательское соглашение
+            </a>
+          </li>
+          <li class="footer__fast-links-item">
+            <a href="#" class="footer__fast-links-item-link">
+              Публичный договор
+            </a>
+          </li>
+          <li class="footer__fast-links-item">
+            <a href="#" class="footer__fast-links-item-link"> Лицензия </a>
+          </li>
+        </ul>
+        <div class="footer__bottom-part">
+          <p class="footer__organization">
+            ООО «МЕДИЦИНСКИЕ ТЕХНОЛОГИИ» ИНН 7813673213
+          </p>
+          <a href="#" class="footer__license_link">
+            ЛИЦЕНЗИЯ НА ОСУЩЕСТВЛЕНИЕ МЕДИЦИНСКОЙ ДЕЯТЕЛЬНОСТИ
+            Л041-01148-78/00308130 ОТ 06.09.2023
+          </a>
+          <div class="footer__website-author">
+            Разработано в
+            <img src="img/footer/belberry-icon.svg" alt="belberry-icon" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="data.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="lozad.min.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
