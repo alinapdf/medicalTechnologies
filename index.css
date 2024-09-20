@@ -2096,3 +2096,11 @@ body.no-scroll {
 .display-none {
   display: none;
 }
+
+.fancy-box-img {
+  display: block !important;
+}
+
+.slider-item__news_img {
+  height: 240px;
+}

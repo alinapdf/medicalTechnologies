@@ -1,10 +1,12 @@
 // lazyload
 
-lozad(".lozad", {
-  load: function (el) {
+const observer = lozad(".lozad", {
+  loaded: function (el) {
     el.src = el.dataset.src;
+    el.classList.add("loaded");
   },
-}).observe();
+});
+observer.observe();
 
 //nav
 
@@ -353,7 +355,9 @@ newsList.forEach((newsItem) => {
   newsSwiper.innerHTML += `
     <div class="swiper-slide news__slide">
       <div class="news-slide__img">
-        <img src="${newsItem.img}" alt="${newsItem.id}" />
+       <a href="img/why-us/medic-house.jpg" data-fancybox="gallery">
+        <img src="${newsItem.img}" alt="${newsItem.id}" class="fancy-box-img"/>
+        </a>
         <span class="news-slide__date">${newsItem.date}</span>
       </div>
       <div class="news-slide__content">
@@ -464,4 +468,15 @@ form.addEventListener("submit", (e) => {
   if (!isValid) {
     return;
   }
+});
+
+// fancybox
+
+$(document).ready(function () {
+  $(".fancy-box-img").fancybox({
+    afterClose: function () {
+      $(".fancybox-content").css("display", "block");
+      console.log("FancyBox закрыт");
+    },
+  });
 });
